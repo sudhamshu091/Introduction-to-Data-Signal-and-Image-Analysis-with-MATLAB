@@ -6,7 +6,7 @@ f=0.8;
 n=6
 a=fir1(n,f,'high')
 b=fir1(n,f,'low')
-[y,fs]=audioread('file_example_WAV_1MG.wav')
+[y,fs]=audioread('apple01.wav')
 sound (y,fs);%plays the audio file
 o=filter(a,1,y);
 p=filter(b,1,o);
