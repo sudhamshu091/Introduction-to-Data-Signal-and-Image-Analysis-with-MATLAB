@@ -1,0 +1,5 @@
+1.
+Question 1
+Attached is a dataset in an excel spreadsheet. Download it, and load it into MATLAB using the xlsread function.
+What is the value of the 3rd feature for the 13th sample?
+Ans:0.1500
